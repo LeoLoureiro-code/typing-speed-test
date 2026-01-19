@@ -1,1 +1,101 @@
-/* You can add global styles to this file, and also import other style files */
+//Variables
+
+//Color
+$blue: #177DFF;
+$light-blue: #4CA6FF;
+$red: #D64D5B;
+$black: #121212;
+$dark-gray: #262626;
+$gray: #717178;
+$light-gray: #949497;
+$white: #FFFFFF;
+$green: #4DD67B;
+$yellow: #F4DC73;
+
+//Spacing
+
+$spacing-25: 2px;  
+$spacing-50: 4px;  
+$spacing-75: 6px;  
+$spacing-100: 8px;  
+$spacing-125: 10px;  
+$spacing-150: 12px;  
+$spacing-200: 16px;  
+$spacing-250: 20px;  
+$spacing-300: 24px;  
+$spacing-400: 32px;  
+$spacing-500: 40px;  
+$spacing-600: 48px;  
+$spacing-800: 64px;  
+$spacing-1000: 80px;  
+$spacing-1200: 96px;  
+$spacing-1400: 112px;  
+$spacing-1800: 140px;  
+
+//Border Radius
+
+$radius-4: 4px;
+$radius-6: 6px;
+$radius-8: 8px;
+$radius-10: 10px;
+$radius-12: 12px;
+$radius-16: 16px;
+$radius-20: 20px;
+$radius-24: 24px;
+$radius-full: 999px;                   
+
+
+//Classes
+
+.primary-btn{
+    width: 198px;
+    height: 56px;
+    border-radius: $radius-10;
+    color: $white;
+    background-color: $blue;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.primary-btn:hover{
+    background-color: $light-blue;
+    cursor: pointer;
+}
+
+.secondary-btn{
+    width: 243px;
+    height: 56px;
+    border-radius: $radius-10;
+    color: $black;
+    background-color: $white;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+.secondary-btn:hover{
+    background-color: $light-gray;
+    cursor: pointer;
+    color: $white;
+}
+
+.regular-btn{
+    width: 74px;
+    height: 31px;
+    background-color: black;
+    border-radius: $radius-10;
+    border: solid 1px $light-gray;
+    color: $white;
+}
+
+.active-btn{
+     width: 74px;
+    height: 31px;
+    background-color: black;
+    border-radius: $radius-10;
+    border: solid 1px $blue;
+    color: $blue;
+}
