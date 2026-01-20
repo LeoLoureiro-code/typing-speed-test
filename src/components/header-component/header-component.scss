@@ -1,0 +1,29 @@
+@use "../../styles.scss" as *;
+
+.header-div{
+    width: 100%;
+    padding-top: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-div{
+    margin-left: 1rem;
+}
+
+.best-score-div{
+    display: flex;
+    align-items: center;
+    width: 40%;
+
+    .best-score-paragraph{
+        color: $gray;
+        font-size: 16px;
+        margin-left: 0.8rem;
+
+        .best-score{
+            color: $white;
+        }
+    }
+}
