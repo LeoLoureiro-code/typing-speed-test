@@ -1,4 +1,37 @@
+//Reset
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Sora', Arial, sans-serif;
+}
+
+//Font
+
+@font-face{
+    font-family: 'Sora';
+    src: url('/assets/fonts/Sora/Sora-VariableFont_wght.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
 //Variables
+//Media queries
+
+$mobile-size-extra-small-max: 575px;
+$mobile-size-small-min: 576px;
+$mobile-size-small-max: 767px;
+$tables-size-min: 768px;
+$tables-size-max: 991px;
+$tablet-laptop-min: 992px;
+$tablet-laptop-max: 1199px;
+$desktop-min: 1200px;
 
 //Color
 $blue: #177DFF;
@@ -74,6 +107,14 @@ $radius-full: 999px;
     font-size: 16px;
     border: none;
     outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        margin-left: 10px;
+        filter: brightness(0) saturate(100%);
+    }
 }
 
 .secondary-btn:hover{
@@ -85,6 +126,7 @@ $radius-full: 999px;
 .regular-btn{
     width: 74px;
     height: 31px;
+    //placeholder
     background-color: black;
     border-radius: $radius-10;
     border: solid 1px $light-gray;
@@ -94,6 +136,7 @@ $radius-full: 999px;
 .active-btn{
      width: 74px;
     height: 31px;
+    //placeholder
     background-color: black;
     border-radius: $radius-10;
     border: solid 1px $blue;
