@@ -1,0 +1,14 @@
+@use "../styles.scss" as *;
+
+.container{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: $black;
+}
+
+hr{
+    width: 90%;
+    border: solid 1px $light-gray;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
