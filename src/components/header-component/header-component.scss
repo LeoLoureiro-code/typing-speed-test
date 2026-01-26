@@ -2,7 +2,6 @@
 
 .header-div{
     width: 100%;
-    padding-top: 0.9rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -13,7 +12,6 @@
 }
 
 .logo-div{
-    margin-left: 1rem;
     width: 32px;
     height: 32px;
     background-image: url("../../../public/assets/images/logo-small.svg");
@@ -28,6 +26,7 @@
 .best-score-div{
     display: flex;
     align-items: center;
+    justify-content: end;
     width: 40%;
 
     .best-score-paragraph{
