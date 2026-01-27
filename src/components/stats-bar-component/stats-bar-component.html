@@ -1,21 +1,50 @@
 <div class="stats-div">
-    <ol class="stats-list">
-        <li class="stat-item">
-            <p class="stat-name">WPM:</p>
-            <!--Placeholder-->
-            <p class="stat-current">0</p>
-        </li>
-        <div class="separator"></div>
-        <li class="stat-item">
-            <p class="stat-name">Accuracy:</p>            
-            <!--Placeholder-->
-            <p class="stat-current">100%</p>
-        </li>
-        <div class="separator"></div>
-        <li class="stat-item">
-            <p class="stat-name">Time:</p>
-            <!--Placeholder-->
-            <p class="stat-current">0:60</p>
-        </li>
-    </ol>
+  <fieldset>
+    <legend>Difficulty:</legend>
+    <div>
+      <input type="radio" id="easy" name="difficulty" value="easy" checked />
+      <label for="difficulty">Easy</label>
+    </div>
+    <div>
+      <input type="radio" id="medium" name="difficulty" value="medium" />
+      <label for="medium">Medium</label>
+    </div>
+    <div>
+      <input type="radio" id="hard" name="difficulty" value="hard" />
+      <label for="hard">Hard</label>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Mode:</legend>
+    <div>
+      <input type="radio" id="timed" name="mode" value="timed" checked />
+      <label for="timed">Timed(60)</label>
+    </div>
+    <div>
+      <input type="radio" id="Passage" name="mode" value="passage" />
+      <label for="passage">Passage</label>
+    </div>
+  </fieldset>
+
+
+  <ol class="stats-list">
+    <li class="stat-item">
+      <p class="stat-name">WPM:</p>
+      <!--Placeholder-->
+      <p class="stat-current">0</p>
+    </li>
+    <div class="separator"></div>
+    <li class="stat-item">
+      <p class="stat-name">Accuracy:</p>
+      <!--Placeholder-->
+      <p class="stat-current">100%</p>
+    </li>
+    <div class="separator"></div>
+    <li class="stat-item">
+      <p class="stat-name">Time:</p>
+      <!--Placeholder-->
+      <p class="stat-current">0:60</p>
+    </li>
+  </ol>
 </div>

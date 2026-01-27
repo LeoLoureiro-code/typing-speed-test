@@ -4,6 +4,14 @@
     width: 100%;
     height: 51px;
     margin-top: 1.8rem;
+
+     @media (min-width: $tablet-size-min){
+        width: 70%;
+    }
+}
+
+fieldset{
+    display: none;
 }
 
 .stats-list{
@@ -19,10 +27,28 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @media (min-width: $tablet-size-min){
+        flex-direction: row;
+    }
+}
+
+.stat-name{
+    
+    @media (min-width: $tablet-size-min){
+        color: $gray;
+        font-size: 18px;
+        margin-right: 0.8rem;
+    }
 }
 
 .stat-current{
     font-size: 24px;
+
+    @media (min-width: $tablet-size-min){
+        font-size: 18px;
+         font-weight: 700;
+    }
 }
 
 .separator{
