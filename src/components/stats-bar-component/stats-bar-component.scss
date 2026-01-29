@@ -5,20 +5,22 @@
     height: 51px;
     margin-top: 1.8rem;
 
-     @media (min-width: $tablet-size-min){
+    @media (min-width: $tablet-size-min){
         width: 70%;
     }
+
 }
 
-fieldset{
-    display: none;
-}
 
 .stats-list{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
+
+    @media (min-width: $tablet-size-min){
+        justify-content: start;
+    }
 }
 
 .stat-item{
@@ -30,6 +32,7 @@ fieldset{
 
     @media (min-width: $tablet-size-min){
         flex-direction: row;
+        margin-right: 1rem;
     }
 }
 
@@ -55,4 +58,9 @@ fieldset{
     height: 51px;
     width: 1px;
     background-color: $gray;
+
+    @media (min-width: $tablet-size-min){
+        margin-right: 1rem;
+        height: 31px;
+    }
 }
