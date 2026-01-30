@@ -11,17 +11,60 @@
 
   @media (min-width: $tablet-size-min){
       justify-content: start;
+      width: 80%;
     }
 }
 
-fieldset{
+.options-div{
     display: none;
 
     @media (min-width: $tablet-size-min){
         display: flex;
         align-items: center;
+        margin-right: 1rem;
     }
 }
+
+.options-paragraph{
+  font-size: 14px;
+  color: $light-gray;
+  margin-right: 0.8rem;
+}
+
+
+//radio buttons
+
+.radio-div{
+  margin-right: 1rem;
+}
+
+.options-div input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.radio-label{
+  height: 55px;
+  padding: 5px 8px 5px 8px;
+  border: 1px solid $light-gray;
+  border-radius: $radius-8;
+  color: $white;
+}
+
+.radio-div input[type="radio"]:checked + label {
+  border: 1px solid $blue;
+   color: $blue;
+}
+
+.separator{
+  width: 1px;
+  height: 31px;
+  background-color: $gray;
+  margin-right: 1rem;
+}
+
+
 
 .select-wrapper {
   position: relative;
