@@ -8,6 +8,19 @@
      @media (min-width: $tablet-size-min){
         padding: 0.9rem 2rem 0 2rem;
      }
+
+     @media (min-width: $desktop-min){
+        width: 1400px;
+        margin: 0 auto;
+     }
+}
+
+.stats-settings-div{
+     @media (min-width: $desktop-min){
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+     }
 }
 
 hr{
