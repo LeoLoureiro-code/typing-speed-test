@@ -1,0 +1,12 @@
+@use "../../styles.scss" as *;
+
+.text-display-div{
+    width: 100%;
+    height: 560px;
+    margin: 0 auto;
+    margin-top: 2rem;
+
+    @media (min-width: $desktop-min){
+        height: 650px;
+    }
+}
